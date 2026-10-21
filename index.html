@@ -1,36 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Angel | Web Developer</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Angel369-Pro | Python Developer Portfolio</title>
+
+    <meta name="description"
+          content="Angel369-Pro - Python Developer Portfolio featuring Python, Tkinter, SQLite, JavaScript and software development projects.">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header>
-    <h1>Angel</h1>
-    <p>Junior web developer (frontend / backend)</p>
-  </header>
 
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>Write 2-3 sentences about your background and what you want to build.</p>
-    </section>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Angel<span>369</span>-Pro</a>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <article>
-        <h3>Cardiology Appointment Booking</h3>
-        <p>Short description, tech used (Node, Postgres), and what you learned.</p>
-        <a href="https://github.com/angel369-pro">View on GitHub</a>
-      </article>
-    </section>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#learning">Learning</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <a href="https://github.com/angel369-pro">GitHub</a>
-    </section>
-  </main>
+    <!-- Hero -->
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hi, I'm <span>Rachel</span>
+                </h1>
+
+                <h2>Junior Python Developer</h2>
+
+                <p class="hero-text">
+                    I build practical desktop applications and web projects
+                    using Python, Tkinter, SQLite, HTML, CSS and JavaScript.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View My Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+
+            <div class="section-title">
+                <p>ABOUT ME</p>
+                <h2>My Development Journey</h2>
+            </div>
+
+            <div class="about-content">
+
+                <div>
+                    <p>
+                        I am a developing software programmer focused on
+                        building practical applications and improving my
+                        programming skills through hands-on projects.
+                    </p>
+
+                    <p>
+                        My main focus is Python development, especially
+                        desktop applications using Tkinter and SQLite.
+                        I am also expanding my web development skills with
+                        HTML, CSS and JavaScript.
+                    </p>
+
+                    <p>
+                        I enjoy turning ideas into functional applications
+                        and continuously learning new technologies.
+                    </p>
+                </div>
+
+                <div class="about-card">
+                    <h3>Current Focus</h3>
+
+                    <ul>
+                        <li>🐍 Python Development</li>
+                        <li>🖥️ Tkinter Applications</li>
+                        <li>🗄️ SQLite Databases</li>
+                        <li>🌐 JavaScript</li>
+                        <li>💻 Web Development</li>
+                        <li>📚 FreeCodeCamp Projects</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section dark-section">
+
+            <div class="section-title">
+                <p>MY SKILLS</p>
+                <h2>Technologies I Work With</h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>
+                        Desktop applications, automation,
+                        databases and application logic.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🖥️</div>
+                    <h3>Tkinter</h3>
+                    <p>
+                        GUI applications, forms, dashboards
+                        and POS systems.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>SQLite</h3>
+                    <p>
+                        Database design, CRUD operations,
+                        inventory and sales data.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML & CSS</h3>
+                    <p>
+                        Responsive websites and modern
+                        user interfaces.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>
+                        Interactive web applications and
+                        FreeCodeCamp projects.
+                    </p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Git & GitHub</h3>
+                    <p>
+                        Version control, repositories and
+                        GitHub Pages deployment.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+
+            <div class="section-title">
+                <p>MY WORK</p>
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+
+                
+               <!-- Pharmacy -->
+                <article class="project-card">
+
+                    <div class="project-header">
+                        <span>PYTHON</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <h3>Pharmacy POS System</h3>
+
+                        <p>
+                            A desktop pharmacy management and point-of-sale
+                            application with inventory management,
+                            barcode scanning, stock tracking and sales.
+                        </p>
+
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                            <span>SQLite</span>
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- Chocolate -->
+                <article class="project-card">
+
+                    <div class="project-header">
+                        <span>PYTHON</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <h3>Chocolate Ordering System</h3>
+
+                        <p>
+                            A desktop ordering system with login,
+                            product selection, quantities, prices,
+                            totals and professional GUI design.
+                        </p>
+
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Tkinter</span>
+                            <span>SQLite</span>
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- Inventory -->
+                <article class="project-card">
+
+                    <div class="project-header">
+                        <span>PYTHON</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <h3>Inventory Management System</h3>
+
+                        <p>
+                            An inventory application designed to manage
+                            products, quantities, prices and database
+                            records.
+                        </p>
+
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>SQLite</span>
+                            <span>Tkinter</span>
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- JavaScript -->
+                <article class="project-card">
+
+                    <div class="project-header">
+                        <span>JAVASCRIPT</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <h3>FreeCodeCamp JavaScript Projects</h3>
+
+                        <p>
+                            A collection of JavaScript projects developed
+                            while completing FreeCodeCamp challenges and
+                            learning DOM manipulation and programming logic.
+                        </p>
+
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- Drum Machine -->
+                <article class="project-card">
+
+                    <div class="project-header">
+                        <span>JAVASCRIPT</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <h3>Drum Machine</h3>
+
+                        <p>
+                            An interactive drum machine using keyboard
+                            controls, audio clips, DOM events and dynamic
+                            display messages.
+                        </p>
+
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>DOM</span>
+                            <span>Audio API</span>
+                        </div>
+
+                    </div>
+                </article>
+
+                <!-- Plant Catalog -->
+                <article class="project-card">
+
+                    <div class="project-header">
+                        <span>JAVASCRIPT</span>
+                    </div>
+
+                    <div class="project-body">
+
+                        <h3>Plant Nursery Catalog</h3>
+
+                        <p>
+                            A JavaScript project using Map and Set to
+                            organize plant information, inventory and
+                            unique plant names.
+                        </p>
+
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>Map</span>
+                            <span>Set</span>
+                        </div>
+
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Learning -->
+        <section id="learning" class="section dark-section">
+
+            <div class="section-title">
+                <p>CONTINUOUS LEARNING</p>
+                <h2>What I'm Learning</h2>
+            </div>
+
+            <div class="learning-box">
+
+                <div>
+                    <span class="number">01</span>
+                    <h3>Python Development</h3>
+                    <p>
+                        Improving Python programming, application design,
+                        databases and GUI development.
+                    </p>
+                </div>
+
+                <div>
+                    <span class="number">02</span>
+                    <h3>JavaScript</h3>
+                    <p>
+                        Learning modern JavaScript through practical
+                        FreeCodeCamp projects.
+                    </p>
+                </div>
+
+                <div>
+                    <span class="number">03</span>
+                    <h3>Web Development</h3>
+                    <p>
+                        Building responsive websites using HTML,
+                        CSS and JavaScript.
+                    </p>
+                </div>
+
+                <div>
+                    <span class="number">04</span>
+                    <h3>Git & GitHub</h3>
+                    <p>
+                        Learning professional version control and
+                        project deployment.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section contact-section">
+
+            <div class="section-title">
+                <p>GET IN TOUCH</p>
+                <h2>Let's Connect</h2>
+            </div>
+
+            <div class="contact-content">
+
+                <p>
+                    I am interested in junior Python development,
+                    software development opportunities, remote work
+                    and projects where I can continue growing my skills.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a
+                        href="https://github.com/angel369-pro"
+                        target="_blank"
+                        class="btn primary">
+                        GitHub
+                    </a>
+
+                    <a
+                        href="https://angel369-pro.github.io/"
+                        target="_blank"
+                        class="btn secondary">
+                        Portfolio
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            © <span id="year"></span> Angel369-Pro.
+            Built with HTML, CSS & JavaScript.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
